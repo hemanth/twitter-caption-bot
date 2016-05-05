@@ -1,0 +1,37 @@
+{
+  "name": "twitter-caption-bot",
+  "private": true,
+  "version": "0.0.0",
+  "description": "The source that is governing https://twitter.com/OreillyCover",
+  "main": "index.js",
+  "dependencies": {
+    "captionbot": "^1.0.2",
+    "get-urls": "^5.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.72.0",
+    "twitter": "^1.2.5",
+    "twitter-text": "^1.13.4",
+    "unshorten": "0.0.2",
+    "url-expand": "^0.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "hemanth.hm@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth/twitter-caption-bot.git"
+  },
+  "keywords": [
+    "cpation",
+    "twitter",
+    "bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/hemanth/twitter-caption-bot/issues"
+  },
+  "homepage": "https://github.com/hemanth/twitter-caption-bot#readme"
+}
