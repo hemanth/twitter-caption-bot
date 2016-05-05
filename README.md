@@ -1,2 +1,2 @@
-# orly-cover-bot
-The source that is governing https://twitter.com/OreillyCover
+# captionbot
+The source that is governing https://twitter.com/caption_bot
