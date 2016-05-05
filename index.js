@@ -7,7 +7,7 @@ var client = new Twitter(require('./config.js'));
 
 var post = status => {
     client.post('statuses/update',{status},function(error, tweet, response){
-        if(error) throw error;
+        if(error) console.error(error);
         console.log(tweet);
         console.log(response);
     });
