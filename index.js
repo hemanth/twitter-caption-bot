@@ -32,7 +32,7 @@ client.stream('statuses/filter', { track: '@caption_bot' }, function (stream) {
     });
 
     stream.on('error', function (error) {
-        throw error;
+        consle.error(error);
     });
 });
 
