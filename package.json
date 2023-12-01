@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "captionbot": "^1.0.2",
-    "get-urls": "^5.0.0",
+    "get-urls": "^10.0.0",
     "querystring": "^0.2.0",
     "request": "^2.72.0",
     "twitter": "^1.2.5",
